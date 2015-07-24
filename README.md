@@ -43,7 +43,7 @@ Pretty simple, uh? All the classes should be familiar to anyone that has used Le
 
 ---
 
-I am also in the process of writing a simple Wiki, in order to better explain what differences stand between the `BrowseFragment` component offered by Sofa and its original counterpart.
+I started populating [the project's Wiki](https://github.com/dextorer/Sofa/wiki), in order to better explain what differences stand between the `BrowseFragment` component offered by Sofa and its original counterpart, and how to make the best out of Sofa.
 
 Download
 ========
