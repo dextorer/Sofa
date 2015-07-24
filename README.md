@@ -1,12 +1,13 @@
 Sofa
 ====
 
-A library for Android TV that extends the [Leanback library](https://developer.android.com/tools/support-library/features.html#v17-leanback) capabilities by offering more powerful features.
+A library for Android TV that extends the [Leanback library](https://developer.android.com/tools/support-library/features.html#v17-leanback) capabilities by offering a set of more powerful features.
 
 Features
 ========
 
-The Leanback library is astonishing in many different aspects, but some limitations are just too big to be ignored.
+The Leanback library is astonishing in many different aspects, and Google has done an insanely good job at easing the developer's task of creating an awesome TV app. 
+But Leanback comes with some limitations, and at some point, those limitations are just too big to be ignored.
 
 These are some of the features that you get by using Sofa:
 
@@ -27,7 +28,9 @@ Simply migrate from `android.support.v17.app.BrowseFragment` to `com.sgottard.so
 
 The best place to start is the demo project, more specifically the [`DemoActivity`](https://github.com/dextorer/Sofa/blob/master/demo/src/main/java/com/sgottard/sofademo/DemoActivity.java) class.
 
-Since **loading multiple rows for each header** has been one of the most requested features over time, these are the required steps to achieve such result:
+---
+
+To showcase a small example of one of the core features offered by Sofa, this is all it takes to **load multiple rows for each header**, something that has been asked for countless times over the past year:
 
 1. Create a `RowsFragment`
 3. Create an `ArrayObjectAdapter` with a `ListRowPresenter` and fill it as you normally do
@@ -36,13 +39,23 @@ Since **loading multiple rows for each header** has been one of the most request
 6. Add a new `ListRow` that contains the `RowsFragment` instance and the corresponding `HeaderItem`
 7. Set the adapter to `BrowseFragment`
 
+Pretty simple, uh? All the classes should be familiar to anyone that has used Leanback before, and so should be the use of those components.
+
+---
+
+I am also in the process of writing a simple Wiki, in order to better explain what differences stand between the `BrowseFragment` component offered by Sofa and its original counterpart.
+
 Download
 ========
 
-Download the [latest JAR](https://bintray.com/dextor/maven/com.sgottard.sofa/_latestVersion) or grab via Gradle:
+Download the latest JAR
+
+[![Download](https://api.bintray.com/packages/dextor/maven/sofa/images/download.svg) ](https://bintray.com/dextor/maven/sofa/_latestVersion)
+
+or grab via Gradle
 
 ```
-compile 'com.sgottard.sofa:sofa:1.0.0'
+compile 'com.github.dextorer:sofa:1.0.0'
 ```
 
 Dependencies
@@ -58,6 +71,11 @@ Caveats
 =======
 
 Sofa is built using part of Leanback's source code, mainly the `BrowseFragment` and `BrowseSupportFragment` classes. The direct dependencies for those classes had to be imported as well, but are mostly untouched. Every other class is still part of Leanback.
+
+Contribute
+==========
+
+Feedback and contributions are extremely welcome. If you feel like something is missing, please submit a request or simply consider adding it yourself.
 
 License
 =======
