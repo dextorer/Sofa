@@ -87,6 +87,13 @@ Contribute
 
 Feedback and contributions are extremely welcome. If you feel like something is missing, please submit a request or simply consider adding it yourself.
 
+Follow me
+=========
+
+[![Twitter](doc/images/twitter.png)](https://twitter.com/@rotxed)
+[![Google+](doc/images/google-plus.png)](https://plus.google.com/+SebastianoGottardo)
+[![LinkedIn](doc/images/linkedin.png)](https://www.linkedin.com/profile/view?id=184236138)
+
 License
 =======
 
