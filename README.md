@@ -55,8 +55,18 @@ Download the latest JAR
 or grab via Gradle
 
 ```
-compile 'com.github.dextorer:sofa:1.0.0'
+repositories {
+    maven {
+        url 'https://dl.bintray.com/dextor/maven/'
+    }
+}
+
+dependencies {
+    compile 'com.github.dextorer:sofa:1.0.0'
+}
 ```
+
+**JCenter coming soon!**
 
 Dependencies
 ============
