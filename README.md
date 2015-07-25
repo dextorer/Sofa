@@ -13,7 +13,6 @@ These are some of the features that you get by using Sofa:
 
 * _Support for multiple rows per each category_
 * _Support for custom fragments and manual focus handling_
-* _Access to (some) hidden methods_
 * _Backwards compatible to standard implementation_
 * _.. the same goes for BrowseSupportFragment!_
 
