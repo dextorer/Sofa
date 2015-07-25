@@ -90,9 +90,9 @@ Feedback and contributions are extremely welcome. If you feel like something is 
 Follow me
 =========
 
-[![Twitter](doc/images/twitter.png)](https://twitter.com/@rotxed)
-[![Google+](doc/images/google-plus.png)](https://plus.google.com/+SebastianoGottardo)
-[![LinkedIn](doc/images/linkedin.png)](https://www.linkedin.com/profile/view?id=184236138)
+[![Twitter](./doc/images/twitter.png =64x64)](https://twitter.com/@rotxed)
+[![Google+](./doc/images/google-plus.png =64x64)](https://plus.google.com/+SebastianoGottardo)
+[![LinkedIn](./doc/images/linkedin.png =64x64)](https://www.linkedin.com/profile/view?id=184236138)
 
 License
 =======
