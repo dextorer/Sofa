@@ -1,5 +1,6 @@
 Sofa
 ====
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sofa-green.svg?style=flat)](https://android-arsenal.com/details/1/2244)
 
 A library for Android TV that extends the [Leanback library](https://developer.android.com/tools/support-library/features.html#v17-leanback) capabilities by offering a set of more powerful features.
 
