@@ -78,6 +78,7 @@ abstract class BaseRowFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
+        mVerticalGridView.setAdapter(null);
         mVerticalGridView = null;
     }
 
