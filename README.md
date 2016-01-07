@@ -1,6 +1,6 @@
 Sofa
 ====
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sofa-green.svg?style=flat)](https://android-arsenal.com/details/1/2244)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sofa-green.svg?style=flat)](https://android-arsenal.com/details/1/2244) [![MethodsCount](https://img.shields.io/badge/Methods count-core: 817 | deps: 15173-e91e63.svg)](http://www.methodscount.com/?lib=com.github.dextorer%3Asofa%3A1.0.0)
 
 A library for Android TV that extends the [Leanback library](https://developer.android.com/tools/support-library/features.html#v17-leanback) capabilities by offering a set of more powerful features.
 
